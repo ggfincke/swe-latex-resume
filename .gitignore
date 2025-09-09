@@ -1,0 +1,67 @@
+# LaTeX build files and auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Additional LaTeX temporary files
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.cb
+*.cb2
+*.dvi
+*.figlist
+*.fmt
+*.fot
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.makefile
+*.nav
+*.nlo
+*.ps
+*.run.xml
+*.snm
+*.toc
+*.vrb
+*.xdy
+
+# LaTeX font files
+*.fd
+*.pfb
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# Build directories (if any)
+build/
+output/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
