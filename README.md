@@ -28,6 +28,8 @@ pdflatex resume.tex
 
 Replace placeholder content with your information. Comment out irrelevant sections and reorder projects based on job requirements.
 
+For automated tailoring to job descriptions, check out my project [Loom](https://github.com/ggfincke/loom) - a CLI tool designed to help customize resumes for specific job applications.
+
 ## License
 
 MIT License - see LICENSE file for details.
