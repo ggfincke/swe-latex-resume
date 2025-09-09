@@ -2,18 +2,27 @@
 
 A clean, compact, minimal LaTeX resume template optimized for software engineering applications.
 
+- Modular design for easy customization
+- Optimized spacing for single-page resumes  
+- Clean, professional formatting
+
 ## Usage
 
 Compile the resume using any LaTeX compiler (pdflatex recommended):
 ```bash
-pdflatex resume_template.tex
+pdflatex resume.tex
 ```
 
 ## Structure
 
-- `resume_template.tex` - Main LaTeX template with example content
-- Custom commands for consistent formatting (`\name`, `\sectionhead`, `\daterange`, etc.)
-- Tight spacing optimized for single-page resumes
+- `resume.tex` - Main LaTeX file that imports all components
+- `src/` - Modular resume sections:
+  - `custom-commands.tex` - LaTeX command definitions (`\name`, `\sectionhead`, `\daterange`, etc.)
+  - `heading.tex` - Name and contact information
+  - `education.tex` - Education section
+  - `experience.tex` - Work experience
+  - `projects.tex` - Project descriptions
+  - `skills.tex` - Technical skills
 
 ## Customization
 
